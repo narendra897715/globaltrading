@@ -1,0 +1,55 @@
+body {
+    font-family: poppins;
+}
+.navlinks {
+    height:50%;
+    padding:10px 15% 0px 15%;
+}
+.navlinks a {
+    color: white;
+    text-decoration:none;
+    padding:0px 5px;
+    font-family: poppins;
+}
+.navlinks a.active {
+    border-bottom: 3px solid white;
+  }
+
+  .p-2 i {
+      color: white;
+      padding: 0px 3px;
+  }
+
+  .company-name {
+      color: white;
+      font-size: 17px;;
+  }
+
+  .createaccount {
+    color: white;
+  }
+
+  .button1 {
+    border-radius: 6px;
+    /* width: 150px; */
+    background: #03B59A;
+    color: white;
+    opacity: 1;
+    border: none;
+    height: 40px;
+    padding: 0px 30px;
+  }
+
+  .button2 {
+    background: white;
+    border: 2px solid #03B59A;
+    border-radius: 6px;
+    height: 40px;
+    padding: 0px 30px;
+    color: #03B59A;
+  }
+
+@font-face {
+    font-family: the-last-call;
+    src: url('./the-last-call/TheLastCall-Regular.ttf') format("opentype");
+  }
